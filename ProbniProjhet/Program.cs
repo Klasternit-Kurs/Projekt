@@ -10,10 +10,20 @@ namespace ProbniProjhet
 	{
 		static void Main(string[] args)
 		{
+			//Jednolinijski komentar
 			byte Bajt = 255;
 			sbyte BajtSaZnakom = 127;
 
-			int CeoBroj;			
+			/*
+
+			asdasdas
+
+			asdasd
+			asdasd
+
+			*/
+
+			int CeoBroj; //Bla bla bla			
 			int x = -27;
 			uint y = 10;
 
@@ -40,6 +50,7 @@ namespace ProbniProjhet
 			Console.WriteLine("Max za long: " + long.MaxValue);
 			Console.WriteLine("Min za ulong: " + ulong.MinValue);
 			Console.WriteLine("Max za ulong: " + ulong.MaxValue);
+			
 			Console.ReadKey();
 		}
 	}
